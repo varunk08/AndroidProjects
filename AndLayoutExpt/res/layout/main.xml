@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<SeekBar android:layout_height="wrap_content" android:id="@+id/seekBar1" android:layout_width="match_parent"></SeekBar>
+<ProgressBar android:layout_width="wrap_content" style="?android:attr/progressBarStyleLarge" android:layout_height="wrap_content" android:id="@+id/progressBar1"></ProgressBar>
+<RatingBar android:id="@+id/ratingBar1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RatingBar>
+<ToggleButton android:text="ToggleButton" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+<EditText android:id="@+id/editText1" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPersonName">
+    <requestFocus></requestFocus>
+</EditText>
+<EditText android:id="@+id/editText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword"></EditText>
+<TimePicker android:id="@+id/timePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+</LinearLayout>
